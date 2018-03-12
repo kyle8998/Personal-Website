@@ -223,7 +223,7 @@ margin-bottom: auto;
 }
 .cardType{
     font-family: 'Pridi', serif;
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     text-align: center;
     line-height: 75%;
@@ -241,7 +241,7 @@ margin-bottom: auto;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 7px;
-    padding-bottom: 0px;
+    padding-bottom: 4px;
     margin-bottom: 2px;
     width: 100%;
     text-align: center;
@@ -261,6 +261,11 @@ margin-bottom: auto;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 12px;
 
+}
+
+.tech{
+    font-style: italic;
+    font-size: 18px;
 }
 
 #projectCard1{

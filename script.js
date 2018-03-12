@@ -98,7 +98,7 @@ console.log(($(window).width() / $(window).height()));
 /*introCol hide content*/
 $(window).scroll(function() {
     if (($(window).width() / $(window).height()) > 1.4469) {
-        if ($(this).scrollTop() < 35) {
+        if ($(this).scrollTop() < 99) {
             $('#introTitle').removeClass('flipOutX');
             setTimeout(function() {
                 $('#introSubtitle').removeClass('flipOutX');
@@ -140,7 +140,7 @@ $(window).scroll(function() {
 		$('.aboutMeCard').addClass('fadeOut');
 		console.log("Adding fadeOut");*/
 
-        if ($(this).scrollTop() > 36) {
+        if ($(this).scrollTop() > 100) {
             $('#introTitle').removeClass('flipInX');
             setTimeout(function() {
                 $('#introSubtitle').removeClass('flipInX');
@@ -172,7 +172,7 @@ $(window).scroll(function() {
 
 
         /*show the main body, remove if too early*/
-        if ($(this).scrollTop() > 630 && $(this).scrollTop() < 1100) {
+        if ($(this).scrollTop() > 530 && $(this).scrollTop() < 1100) {
             $('.aboutMeCard').removeClass('fadeOut');
             setTimeout(function() {
                 $('.aboutMeButton').removeClass('fadeOut');
